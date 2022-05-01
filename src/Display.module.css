@@ -1,0 +1,23 @@
+.display,
+.mini {
+  background-color: rgb(63, 63, 63);
+  padding-right: 4px;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  overflow: hidden;
+}
+
+.display {
+  height: 70%;
+  border-bottom: 1px solid rgb(122, 121, 121);
+  border-radius: 10px 10px 0 0;
+  font-size: 3rem;
+}
+
+.mini {
+  height: 30%;
+  font-size: 2rem;
+  color: gray;
+}
